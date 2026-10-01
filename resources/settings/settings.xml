@@ -1,0 +1,27 @@
+<resources>
+    <properties>
+        <property id="plan" type="number">0</property>
+        <property id="custom" type="string">0:30 Feed; 1:00 Feed; 1:30 Feed; 2:00 Feed; 2:30 Feed; 3:00 Feed; 3:30 Feed</property>
+        <property id="alertSecs" type="number">60</property>
+    </properties>
+
+    <settings>
+        <setting propertyKey="@Properties.plan" title="@Strings.PlanTitle">
+            <settingConfig type="list">
+                <listEntry value="0">@Strings.PlanAuto</listEntry>
+                <listEntry value="1">@Strings.Plan3Oct</listEntry>
+                <listEntry value="2">@Strings.Plan10Oct</listEntry>
+                <listEntry value="3">@Strings.Plan17Oct</listEntry>
+                <listEntry value="4">@Strings.PlanRace</listEntry>
+                <listEntry value="5">@Strings.Plan14Nov</listEntry>
+                <listEntry value="6">@Strings.PlanCustom</listEntry>
+            </settingConfig>
+        </setting>
+        <setting propertyKey="@Properties.custom" title="@Strings.CustomTitle">
+            <settingConfig type="alphaNumeric"/>
+        </setting>
+        <setting propertyKey="@Properties.alertSecs" title="@Strings.AlertTitle">
+            <settingConfig type="numeric" min="10" max="300"/>
+        </setting>
+    </settings>
+</resources>

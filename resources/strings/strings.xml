@@ -1,0 +1,13 @@
+<strings>
+    <string id="AppName">FuelCue</string>
+    <string id="PlanTitle">Fuelling plan</string>
+    <string id="PlanAuto">Auto (by date)</string>
+    <string id="Plan3Oct">Sat 3 Oct (30 / 45)</string>
+    <string id="Plan10Oct">Sat 10 Oct (20 / 40)</string>
+    <string id="Plan17Oct">Sat 17 Oct (20 / 35)</string>
+    <string id="PlanRace">Race / 7 Nov (20 / 35)</string>
+    <string id="Plan14Nov">Sat 14 Nov (bar 0:45)</string>
+    <string id="PlanCustom">Custom (below)</string>
+    <string id="CustomTitle">Custom schedule, e.g. 0:20 Caff gel; 0:55 Gel</string>
+    <string id="AlertTitle">Alert shows for (seconds)</string>
+</strings>
