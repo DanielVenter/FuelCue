@@ -1,27 +1,87 @@
 <resources>
     <properties>
-        <property id="plan" type="number">0</property>
+        <property id="use" type="number">0</property>
+        <property id="n1" type="string"></property>
+        <property id="d1" type="string"></property>
+        <property id="s1" type="string"></property>
+        <property id="n2" type="string"></property>
+        <property id="d2" type="string"></property>
+        <property id="s2" type="string"></property>
+        <property id="n3" type="string"></property>
+        <property id="d3" type="string"></property>
+        <property id="s3" type="string"></property>
+        <property id="n4" type="string"></property>
+        <property id="d4" type="string"></property>
+        <property id="s4" type="string"></property>
+        <property id="n5" type="string"></property>
+        <property id="d5" type="string"></property>
+        <property id="s5" type="string"></property>
         <property id="custom" type="string">0:30 Feed; 1:00 Feed; 1:30 Feed; 2:00 Feed; 2:30 Feed; 3:00 Feed; 3:30 Feed</property>
-        <property id="alertSecs" type="number">60</property>
+        <property id="alertSecs" type="number">10</property>
     </properties>
 
     <settings>
-        <setting propertyKey="@Properties.plan" title="@Strings.PlanTitle">
+        <setting propertyKey="@Properties.use" title="@Strings.UseTitle">
             <settingConfig type="list">
-                <listEntry value="0">@Strings.PlanAuto</listEntry>
-                <listEntry value="1">@Strings.Plan3Oct</listEntry>
-                <listEntry value="2">@Strings.Plan10Oct</listEntry>
-                <listEntry value="3">@Strings.Plan17Oct</listEntry>
-                <listEntry value="4">@Strings.PlanRace</listEntry>
-                <listEntry value="5">@Strings.Plan14Nov</listEntry>
-                <listEntry value="6">@Strings.PlanCustom</listEntry>
+                <listEntry value="0">@Strings.Use0</listEntry>
+                <listEntry value="1">@Strings.Use1</listEntry>
+                <listEntry value="2">@Strings.Use2</listEntry>
+                <listEntry value="3">@Strings.Use3</listEntry>
+                <listEntry value="4">@Strings.Use4</listEntry>
+                <listEntry value="5">@Strings.Use5</listEntry>
+                <listEntry value="6">@Strings.Use6</listEntry>
             </settingConfig>
+        </setting>
+        <setting propertyKey="@Properties.n1" title="@Strings.Name1">
+            <settingConfig type="alphaNumeric"/>
+        </setting>
+        <setting propertyKey="@Properties.d1" title="@Strings.When1">
+            <settingConfig type="alphaNumeric"/>
+        </setting>
+        <setting propertyKey="@Properties.s1" title="@Strings.Sched1">
+            <settingConfig type="alphaNumeric"/>
+        </setting>
+        <setting propertyKey="@Properties.n2" title="@Strings.Name2">
+            <settingConfig type="alphaNumeric"/>
+        </setting>
+        <setting propertyKey="@Properties.d2" title="@Strings.When2">
+            <settingConfig type="alphaNumeric"/>
+        </setting>
+        <setting propertyKey="@Properties.s2" title="@Strings.Sched2">
+            <settingConfig type="alphaNumeric"/>
+        </setting>
+        <setting propertyKey="@Properties.n3" title="@Strings.Name3">
+            <settingConfig type="alphaNumeric"/>
+        </setting>
+        <setting propertyKey="@Properties.d3" title="@Strings.When3">
+            <settingConfig type="alphaNumeric"/>
+        </setting>
+        <setting propertyKey="@Properties.s3" title="@Strings.Sched3">
+            <settingConfig type="alphaNumeric"/>
+        </setting>
+        <setting propertyKey="@Properties.n4" title="@Strings.Name4">
+            <settingConfig type="alphaNumeric"/>
+        </setting>
+        <setting propertyKey="@Properties.d4" title="@Strings.When4">
+            <settingConfig type="alphaNumeric"/>
+        </setting>
+        <setting propertyKey="@Properties.s4" title="@Strings.Sched4">
+            <settingConfig type="alphaNumeric"/>
+        </setting>
+        <setting propertyKey="@Properties.n5" title="@Strings.Name5">
+            <settingConfig type="alphaNumeric"/>
+        </setting>
+        <setting propertyKey="@Properties.d5" title="@Strings.When5">
+            <settingConfig type="alphaNumeric"/>
+        </setting>
+        <setting propertyKey="@Properties.s5" title="@Strings.Sched5">
+            <settingConfig type="alphaNumeric"/>
         </setting>
         <setting propertyKey="@Properties.custom" title="@Strings.CustomTitle">
             <settingConfig type="alphaNumeric"/>
         </setting>
         <setting propertyKey="@Properties.alertSecs" title="@Strings.AlertTitle">
-            <settingConfig type="numeric" min="10" max="300"/>
+            <settingConfig type="numeric" min="3" max="300"/>
         </setting>
     </settings>
 </resources>

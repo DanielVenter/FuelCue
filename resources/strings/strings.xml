@@ -1,13 +1,28 @@
 <strings>
     <string id="AppName">FuelCue</string>
-    <string id="PlanTitle">Fuelling plan</string>
-    <string id="PlanAuto">Auto (by date)</string>
-    <string id="Plan3Oct">Sat 3 Oct (30 / 45)</string>
-    <string id="Plan10Oct">Sat 10 Oct (20 / 40)</string>
-    <string id="Plan17Oct">Sat 17 Oct (20 / 35)</string>
-    <string id="PlanRace">Race / 7 Nov (20 / 35)</string>
-    <string id="Plan14Nov">Sat 14 Nov (bar 0:45)</string>
-    <string id="PlanCustom">Custom (below)</string>
-    <string id="CustomTitle">Custom schedule, e.g. 0:20 Caff gel; 0:55 Gel</string>
+    <string id="UseTitle">Use now (next ride only)</string>
+    <string id="Use0">Auto (by date / weekday)</string>
+    <string id="Use6">Default schedule</string>
+    <string id="Use1">Plan 1</string>
+    <string id="Name1">Plan 1 name, e.g. Long Sat</string>
+    <string id="When1">Plan 1 when: a date (28 Nov), weekdays (Sat or Tue, Thu) or blank</string>
+    <string id="Sched1">Plan 1 schedule, e.g. 0:20 Caff gel; 0:55 Gel; 1:30 Bar</string>
+    <string id="Use2">Plan 2</string>
+    <string id="Name2">Plan 2 name, e.g. Long Sat</string>
+    <string id="When2">Plan 2 when: a date (28 Nov), weekdays (Sat or Tue, Thu) or blank</string>
+    <string id="Sched2">Plan 2 schedule, e.g. 0:20 Caff gel; 0:55 Gel; 1:30 Bar</string>
+    <string id="Use3">Plan 3</string>
+    <string id="Name3">Plan 3 name, e.g. Long Sat</string>
+    <string id="When3">Plan 3 when: a date (28 Nov), weekdays (Sat or Tue, Thu) or blank</string>
+    <string id="Sched3">Plan 3 schedule, e.g. 0:20 Caff gel; 0:55 Gel; 1:30 Bar</string>
+    <string id="Use4">Plan 4</string>
+    <string id="Name4">Plan 4 name, e.g. Long Sat</string>
+    <string id="When4">Plan 4 when: a date (28 Nov), weekdays (Sat or Tue, Thu) or blank</string>
+    <string id="Sched4">Plan 4 schedule, e.g. 0:20 Caff gel; 0:55 Gel; 1:30 Bar</string>
+    <string id="Use5">Plan 5</string>
+    <string id="Name5">Plan 5 name, e.g. Long Sat</string>
+    <string id="When5">Plan 5 when: a date (28 Nov), weekdays (Sat or Tue, Thu) or blank</string>
+    <string id="Sched5">Plan 5 schedule, e.g. 0:20 Caff gel; 0:55 Gel; 1:30 Bar</string>
+    <string id="CustomTitle">Default schedule (any other day)</string>
     <string id="AlertTitle">Alert shows for (seconds)</string>
 </strings>
